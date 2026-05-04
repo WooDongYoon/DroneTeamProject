@@ -1,7 +1,13 @@
 #pragma once
-// 단순 연결 리스트의 노드 구조를 구조체로 정의
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<string.h>
+
 typedef struct ListNode 
 {
+	char pointname[3];
 	double distance;
 	double k;
 	double battery_used;
@@ -17,4 +23,4 @@ typedef struct
 linkedList_h* createLinkedList_h(void);
 void freeLinkedList_h(linkedList_h* L);
 void printList(linkedList_h* L, FILE* fp);
-void insertLastNode(linkedList_h* L, double distnce, double k, double battery_used);
+void insertLastNode(linkedList_h* L, double distance, double k, double battery_used, char* pointname);
