@@ -15,21 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03.c">
+    <ClCompile Include="01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="03list.c">
+    <ClCompile Include="03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DroneProject.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="wdy.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="LinkedList.h">
+    <ClInclude Include="cdh.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
